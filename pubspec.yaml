@@ -1,0 +1,33 @@
+name: milmotivos
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/motivos.json
+    - assets/images/
+    - assets/ampulheta.png
+  
+  fonts:
+    - family: GreatVibes
+      fonts:
+        - asset: fonts/GreatVibes-Regular.ttf
+
+  uses-material-design: true
